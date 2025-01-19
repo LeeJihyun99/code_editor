@@ -8,5 +8,4 @@ function run(){
     output.contentDocument.body.innerHTML = htmlCode.value + "<style>" + cssCode.value + "</style>";
 
     output.contentWindow.eval(jsCode.value);
-
 }
